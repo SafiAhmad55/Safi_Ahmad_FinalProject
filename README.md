@@ -454,22 +454,9 @@ The application uses MongoDB Atlas as its configured cloud database. Ensure the 
 - Configure database network access carefully.
 - Review dependencies and address security vulnerabilities where possible.
 
-## 19. Future Improvements
 
-Potential improvements include:
 
-- More comprehensive automated testing.
-- Improved mobile responsiveness.
-- Enhanced reporting and analytics.
-- More detailed role and permission management.
-- Improved file storage and management.
-- Additional input validation and error handling.
-- Continuous integration and deployment.
-- Further performance and security improvements.
-
-These are potential future enhancements and are not claims about currently implemented features.
-
-## 20. Project Deliverables
+## 19. Project Deliverables
 
 The final submission should include the following items, as applicable to the internship instructions:
 
