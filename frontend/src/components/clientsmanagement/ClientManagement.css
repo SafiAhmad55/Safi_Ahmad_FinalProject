@@ -1,0 +1,180 @@
+.client-management {
+  width: 100%;
+  color: #1f2937;
+}
+
+.client-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.client-heading h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.client-heading p {
+  margin-top: 6px;
+  color: #6b7280;
+}
+
+.client-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.client-toolbar input,
+.client-toolbar select,
+.client-form input,
+.client-form select {
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: white;
+}
+
+.client-toolbar input {
+  flex: 1;
+}
+
+.client-primary,
+.client-secondary {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.client-primary {
+  color: white;
+  background: #2563eb;
+}
+
+.client-primary:hover {
+  background: #1d4ed8;
+}
+
+.client-secondary {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.client-form {
+  margin-bottom: 24px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f9fafb;
+}
+
+.client-form h3 {
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.client-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.client-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.client-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+}
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  background: white;
+}
+
+.client-table th,
+.client-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+.client-table th {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.client-status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.client-status.active {
+  color: #166534;
+  background: #dcfce7;
+}
+
+.client-status.inactive {
+  color: #991b1b;
+  background: #fee2e2;
+}
+
+.client-row-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.client-edit,
+.client-delete {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.client-edit {
+  color: #2563eb;
+}
+
+.client-delete {
+  color: #dc2626;
+}
+
+.client-error {
+  padding: 12px;
+  color: #b91c1c;
+  background: #fee2e2;
+  border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+  .client-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .client-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.client-table {
+  min-width: 700px;
+}
+
