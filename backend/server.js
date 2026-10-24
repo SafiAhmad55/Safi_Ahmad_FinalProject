@@ -53,8 +53,12 @@ app.get("/", (req, res) => {
  res.send("Week 8 Invoice Management API is running");
 });
 
-const PORT = process.env.PORT || 5001;
+module.exports = app;
 
-app.listen(PORT, () => {
- console.log(`CRM  server running on port ${PORT}`);
-});
+if (require.main === module) {
+  const PORT = process.env.PORT || 5001;
+
+  app.listen(PORT, () => {
+    console.log(`CRM server running on port ${PORT}`);
+  });
+}
