@@ -50,7 +50,7 @@ mongoose
   });
 
 app.get("/", (req, res) => {
- res.send("Week 8 Invoice Management API is running");
+ res.send("Invoice Management API is running");
 });
 
 module.exports = app;
