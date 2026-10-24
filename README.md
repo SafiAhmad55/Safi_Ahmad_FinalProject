@@ -359,44 +359,6 @@ The backend uses JWT authentication and bcrypt password hashing, according to th
 
 Verify that Admin and Employee permissions work correctly before claiming authorization testing is complete.
 
-## 14. Testing
-
-Testing is used to verify that the application behaves as expected.
-
-### Main test areas
-
-| Test ID | Feature | Verification |
-|---|---|---|
-| TC-01 | Login | Verify valid login credentials |
-| TC-02 | Authorization | Verify role permissions |
-| TC-03 | Clients | Create and update a client |
-| TC-04 | Projects | Create a project linked to a client |
-| TC-05 | Tasks | Create and update a task |
-| TC-06 | Meetings | Create and delete a meeting |
-| TC-07 | Files | Test file upload and retrieval |
-| TC-08 | Invoices | Verify invoice creation and calculations |
-| TC-09 | Invoice Status | Verify supported invoice statuses |
-| TC-10 | Reports | Verify displayed report information |
-| TC-11 | Search and Filters | Verify matching records |
-| TC-12 | Responsive Layout | Test desktop and mobile usability |
-
-### Testing evidence
-
-Save genuine screenshots of important tests in the `screenshots/` directory.
-
-Include evidence such as:
-
-- Successful login.
-- Dashboard display.
-- Client or project records.
-- MongoDB Atlas documents.
-- Successful Postman responses.
-- Invoice details and calculations.
-- Relevant error handling or validation results.
-
-Document actual results and mark each test as Passed, Failed, Partial, or Not Tested as appropriate.
-
-Refer to `TESTING_REPORT.md` for the detailed test results.
 
 ## 15. Screenshots
 
